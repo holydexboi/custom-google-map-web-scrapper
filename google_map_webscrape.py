@@ -6,7 +6,7 @@ import re
 import pandas as pd
 
 app = Flask(__name__)
-CORS(app)  # Allow CORS for all routes
+CORS(app, origins=["https://holydexboi.github.io"])  # Allow CORS for all routes
 # Function to perform the web scraping
 def scrape_google_map(url):
    # url = "https://www.google.com/maps/d/u/0/viewer?mid=1IfRqpMMA8JBwH_XvIyxW8MYyzzg&ll=52.37174422271906%2C4.911542985549802&z=15"
