@@ -3,4 +3,3 @@ flask-cors
 requests
 pandas
 bs4
-re
